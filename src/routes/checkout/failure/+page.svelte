@@ -1,5 +1,5 @@
 <script>
-    import { HeroSection, Button } from "$components/HeroSection.svelte";
+    import { HeroSection, Button } from "$components";
 </script>
 
 <HeroSection>
