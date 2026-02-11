@@ -1,8 +1,8 @@
 import { json } from '@sveltejs/kit'
 import sgMail from '@sendgrid/mail'
-import { SENDGRID_API_KEY } from '$env/dynamic/private'
+import { PRIVATE_SENDGRID_API_KEY } from '$env/dynamic/private'
 
-sgMail.setApiKey(SENDGRID_API_KEY)
+sgMail.setApiKey(PRIVATE_SENDGRID_API_KEY)
 
 const PDF_GUIDE_URL = 
     "https://narrify-public.s3.eu-central-1.amazonaws.com/sample.pdf"
