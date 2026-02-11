@@ -6,6 +6,12 @@ Everything you need to build a Svelte project, powered by [`sv`](https://github.
 
 https://docs.stripe.com/testing
 
+## Test webhook
+
+```sh
+stripe listen --forward-to localhost:5173/api/purchase-confirmation --events checkout.session.completed
+```
+
 ## Creating a project
 
 If you're seeing this, you've probably already done this step. Congrats!
