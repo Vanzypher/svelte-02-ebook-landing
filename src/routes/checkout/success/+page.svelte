@@ -5,7 +5,7 @@
 <HeroSection>
     <h1>THANK YOU FOR</h1>
     <h1 class="mb-1">PURCHASING</h1>
-    
+
     <p class="light-grey mb-s">
         You've made a great decision by choosing this guide to help you on your
         journey to Spain. We’re confident that the insights and advice contained in
