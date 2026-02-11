@@ -1,6 +1,6 @@
 import { json } from '@sveltejs/kit'
 import sgMail from '@sendgrid/mail'
-import { PRIVATE_SENDGRID_API_KEY } from '$env/dynamic/private'
+import { PRIVATE_SENDGRID_API_KEY } from '$env/static/private'
 
 sgMail.setApiKey(PRIVATE_SENDGRID_API_KEY)
 
