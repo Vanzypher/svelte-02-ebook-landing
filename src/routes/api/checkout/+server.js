@@ -16,7 +16,7 @@ export async function POST() {
                 }
             ],
             mode: "payment",
-            success_url: `${PUBLIC_FRONTEND_URL}/checkout/successs`,
+            success_url: `${PUBLIC_FRONTEND_URL}/checkout/success`,
             cancel_url: `${PUBLIC_FRONTEND_URL}/checkout/failure`,
         })
 
